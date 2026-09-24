@@ -215,12 +215,12 @@ The active theme is set by toggling `data-theme="dark"` or `data-theme="light"` 
 | Platform | Link |
 |---|---|
 | 🌐 GitHub | [@muhhtasim](https://github.com/muhhtasim) |
-| 💼 LinkedIn | [Nurul Absar Shadik](https://www.linkedin.com/in/nurul-absar-shadik-01143b373/) |
-| 📊 Kaggle | [@nurulabsarshadik](https://www.kaggle.com/nurulabsarshadik) |
-| 🏆 Codeforces | [failure_soul](https://codeforces.com/profile/failure_soul) |
-| 🟠 CodeChef | [failure_soul](https://www.codechef.com/users/failure_soul) |
-| 🟡 LeetCode | [ajolbelai_absar](https://leetcode.com/u/ajolbelai_absar/) |
-| 🔵 AtCoder | [failure_soul](https://atcoder.jp/users/failure_soul) |
+| 💼 LinkedIn | [Ahmed Muhtasim Labib](https://www.linkedin.com/in/banned /) |
+| 📊 Kaggle | [@muhtasimahmed52](https://www.kaggle.com/muhtasimahmed52) |
+| 🏆 Codeforces | [write_art_](https://codeforces.com/profile/write_art_) |
+| 🟠 CodeChef | [pore pore](https://www.codechef.com/users/pore) |
+| 🟡 LeetCode | [pore](https://leetcode.com/u/pore) |
+| 🔵 AtCoder | [pore](https://atcoder.jp/users/pore) |
 | ✉️ Email | [muhtasimlabib52@gmail.com](mailto:muhtasimlabib52@gmail.com) |
 
 ---
@@ -232,5 +232,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Built with ❤️ by <strong>Ahmed Muhtasim Labib</strong> &nbsp;·&nbsp; Metropolitan University, Sylhet, Bangladesh
+  Built by <strong>Ahmed Muhtasim Labib</strong> &nbsp;·&nbsp; Metropolitan University, Sylhet, Bangladesh
 </p>

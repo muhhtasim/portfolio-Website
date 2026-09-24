@@ -50,7 +50,7 @@ const projects = [
     featured: true
   },
   {
-    name: 'Lab Calculator',
+    name: 'Calculator',
     emoji: '🧮',
     description: 'A Java calculator project created for laboratory work, focused on implementing common arithmetic operations through a simple desktop application.',
     tech: ['Java', 'GUI', 'Arithmetic', 'Desktop Application'],

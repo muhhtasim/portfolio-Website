@@ -1,7 +1,14 @@
 const experiences = [
   {
+  title: 'Physics & Mathematics Instructor',
+  company: 'Udvash Academic & Admission Care',
+  period: 'Jan 2026 – Present',
+  desc: 'Conduct concept-based Physics and Mathematics classes for SSC, HSC, and admission candidates. Mentor students through structured problem-solving sessions and provide academic guidance to strengthen conceptual understanding and exam performance.',
+  skills: ['Physics', 'Mathematics', 'Problem Solving', 'Teaching', 'Mentoring', 'Academic Guidance']
+},
+{
     title: 'Full-Stack Developer (Academic Project Lead)',
-    company: 'CampusHive Platform',
+    company: 'Ed-Tech-',
     period: 'Jun 2026 – Jul 2026',
     desc: 'Architected and developed a comprehensive academic management platform from scratch. Led the full-stack implementation including real-time quiz systems, role-based portals for Admin/Teacher/Student, and the LabTrack submission & grading system.',
     skills: ['React', 'Node.js', 'Socket.io', 'MySQL', 'Express', 'JWT Auth', 'REST APIs']

@@ -16,7 +16,8 @@ const educationData = [
     institution: 'Dakshin Surma College',
     location: 'Sylhet, Bangladesh',
     period: '2020 – 2022',
-    grade: 'GPA 4.82 / 5.00 · Science Group',
+    //gpa pore dibo add
+    grade: 'Science Group',
     icon: FaBuildingColumns
   },
   {
@@ -25,7 +26,8 @@ const educationData = [
     institution: 'Bangladesh Bank School',
     location: 'Sylhet Sadar, Sylhet',
     period: '2018 – 2020',
-    grade: 'GPA 4.74 / 5.00 · Science Group',
+    //gpa pore dibo add ...GPA 4.74 / 5.00 · 
+    grade: 'Science Group',
     icon: FaSchool
   }
 ]

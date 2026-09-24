@@ -125,7 +125,8 @@ export default function Resume({ onBack }) {
             </div>
             <div className="cv-entry-row">
               <em className="cv-entry-sub">Higher Secondary Certificate (HSC) — Science Group</em>
-              <em className="cv-entry-sub cv-right">GPA 4.82 / 5.00</em>
+              <em className="cv-entry-sub cv-right"> </em> 
+              //gpa pore dibo add
             </div>
           </div>
 
@@ -136,7 +137,8 @@ export default function Resume({ onBack }) {
             </div>
             <div className="cv-entry-row">
               <em className="cv-entry-sub">Secondary School Certificate (SSC) — Science Group</em>
-              <em className="cv-entry-sub cv-right">GPA 4.72 / 5.00 </em>
+              <em className="cv-entry-sub cv-right"></em>
+              //gpa pore dibo add ...GPA 4.74 / 5.00 ·
             </div>
           </div>
         </div>
@@ -177,7 +179,7 @@ export default function Resume({ onBack }) {
             <div className="cv-entry-row">
               <strong className="cv-entry-proj">JudgeMate — Competitive Programming Judge</strong>
               <span className="cv-entry-date">
-                <a href="https://github.com/failuresoul/JudgeMate" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
+                <a href="https://github.com/kaj sesh hole dibo   " target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
               </span>
             </div>
             <p className="cv-proj-tech">Laravel 12, PHP, MySQL, Queue Workers, REST API</p>
@@ -187,102 +189,103 @@ export default function Resume({ onBack }) {
             </ul>
           </div>
 
-          {/* FitConnectPro */}
-          <div className="cv-entry">
-            <div className="cv-entry-row">
-              <strong className="cv-entry-proj">FitConnectPro — Fitness &amp; Health Android App</strong>
-              <span className="cv-entry-date">
-                <a href="https://github.com/failuresoul" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
-              </span>
-            </div>
-            <p className="cv-proj-tech">Java, Android Studio, Firebase</p>
-            <ul className="cv-bullets">
-              <li>Developed a fitness and health tracking Android application built with Java in Android Studio, using Firebase as the real-time backend database.</li>
-              <li>Implemented workout logging, user profiles, and health metric tracking with Firebase Authentication and Cloud Firestore for secure, synchronized data.</li>
-            </ul>
+          {/* Ed-Tech */} 
+          <div className="cv-entry"> 
+            <div className="cv-entry-row"> 
+              <strong className="cv-entry-proj">Ed-Tech — Online Programming Learning Platform</strong> 
+              <span className="cv-entry-date"> 
+                <a href="https://github.com/muhhtasim/Ed-Tech-" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
+                </span> 
+            </div> 
+            <p className="cv-proj-tech">HTML, CSS, JavaScript, Node.js, Express.js, MySQL</p> 
+            <ul className="cv-bullets"> 
+              <li>Developed an online programming learning platform with course enrollment, learning resources, progress tracking, and personalized user dashboards.</li> 
+              <li>Implemented authentication, course search and filtering, and role-based course management features for instructors and administrators using Node.js, Express.js, and MySQL.</li> 
+            </ul> 
           </div>
 
-          {/* CampusHive */}
-          <div className="cv-entry">
-            <div className="cv-entry-row">
-              <strong className="cv-entry-proj">CampusHive — Academic Management Platform</strong>
-              <span className="cv-entry-date">
-                <a href="https://github.com/failuresoul/CampusHive" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
-              </span>
-            </div>
-            <p className="cv-proj-tech">React, Node.js, Express.js, Socket.io, MySQL, JWT</p>
-            <ul className="cv-bullets">
-              <li>Architected a full-stack academic management platform with three role-based portals (Admin, Teacher, Student), secured with JWT and powered by real-time Socket.io communication.</li>
-              <li>Built LabTrack for lab report grading, a live in-class quiz engine, study circles, and a lost-and-found portal.</li>
-            </ul>
+          {/* Autonomous Navigation Car */}
+          <div className="cv-entry"> 
+            <div className="cv-entry-row"> 
+              <strong className="cv-entry-proj">Autonomous Navigation Car</strong> 
+              <span className="cv-entry-date"> 
+                <a href="https://github.com/muhhtasim/Autonomous-Navigation-Car" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
+              </span> 
+            </div> 
+            <p className="cv-proj-tech">Arduino, C++, Ultrasonic Sensor, Servo Motor, Motor Driver</p> 
+            <ul className="cv-bullets"> 
+              <li>Built an Arduino-based autonomous 4WD vehicle capable of detecting obstacles and navigating around them using an ultrasonic sensor.</li> 
+              <li>Implemented servo-based path scanning and motor control logic to identify alternate routes and perform autonomous obstacle avoidance.</li> 
+            </ul> 
           </div>
 
-          {/* Churn Prediction */}
-          <div className="cv-entry">
-            <div className="cv-entry-row">
-              <strong className="cv-entry-proj">Customer Churn Prediction Using ANN</strong>
-              <span className="cv-entry-date">
-                <a href="https://github.com/failuresoul/Churn-Prediction-by-using-ANN" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
-              </span>
-            </div>
-            <p className="cv-proj-tech">Python, TensorFlow, Keras, Scikit-learn, Pandas</p>
-            <ul className="cv-bullets">
-              <li>Built an artificial neural network to predict customer churn on a real-world banking dataset, reaching strong validation accuracy through dropout regularization and feature engineering.</li>
-              <li>Documented the complete ML lifecycle — exploratory data analysis, training, evaluation, and prediction — as a modular, reproducible pipeline.</li>
-            </ul>
+          {/* GymPilot SaaS */} 
+          <div className="cv-entry"> 
+            <div className="cv-entry-row"> 
+              <strong className="cv-entry-proj">GymPilot SaaS — Gym Management Platform</strong> 
+              <span className="cv-entry-date"> 
+                <a href="https://github.com/muhhtasim/GymPilot-SaaS" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
+              </span> 
+            </div> 
+            <p className="cv-proj-tech">JavaScript, Node.js, Backend, SaaS, Database</p> 
+            <ul className="cv-bullets"> 
+              <li>Designed a SaaS-based gym management platform to centralize member management, workout programs, and day-to-day fitness business operations.</li> 
+              <li>Structured backend and database workflows to support scalable management of gym members, fitness programs, and operational records.</li> 
+            </ul> 
           </div>
 
-          {/* Niryo Robot */}
-          <div className="cv-entry">
-            <div className="cv-entry-row">
-              <strong className="cv-entry-proj">Niryo Robotic Arm Control System</strong>
-              <span className="cv-entry-date">
-                <a href="https://github.com/failuresoul/Niryo-Robot" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
-              </span>
-            </div>
-            <p className="cv-proj-tech">Python, pyniryo SDK, ROS, OpenCV</p>
-            <ul className="cv-bullets">
-              <li>Developed control software for the Niryo robotic arm using the pyniryo SDK with ROS integration, achieving reliable precision motor control and task automation.</li>
-              <li>Integrated OpenCV-based object detection for camera-assisted manipulation with real-time contour tracking and pick-and-place workflows.</li>
-            </ul>
-          </div>
+         {/* FlappyBirds */} 
+         <div className="cv-entry"> 
+           <div className="cv-entry-row"> 
+             <strong className="cv-entry-proj">Birds Game — FlappyBirds</strong> 
+             <span className="cv-entry-date"> 
+               <a href="https://github.com/muhhtasim/Birds-Game-FlappyBirds-" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
+             </span> 
+           </div> 
+           <p className="cv-proj-tech">Java, Swing, AWT, Game Loop, Graphics</p> 
+           <ul className="cv-bullets"> 
+             <li>Developed a Java-based remake of the classic Flappy Bird game using Swing and AWT with custom graphics and a real-time game loop.</li> 
+             <li>Implemented randomly generated obstacles, collision detection, score tracking, game-over handling, restart functionality, and keyboard controls.</li> 
+           </ul> 
+         </div>
 
-          {/* Tiny Computer */}
-          <div className="cv-entry">
-            <div className="cv-entry-row">
-              <strong className="cv-entry-proj">Tiny Computer (CPU Design)</strong>
-              <span className="cv-entry-date">
-                <a href="https://github.com/failuresoul/Tiny_Computer" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
-              </span>
-            </div>
-            <p className="cv-proj-tech">Digital Logic, ALU, Booth's Algorithm, Computer Architecture</p>
-            <ul className="cv-bullets">
-              <li>Designed and implemented a miniature computer from first principles using NOT, AND, and OR logic gates.</li>
-              <li>Built a complete Arithmetic Logic Unit (ALU) with support for Booth's multiplication algorithm and basic arithmetic operations.</li>
-            </ul>
-          </div>
+         {/* MedSearch Pro */} 
+         <div className="cv-entry"> 
+           <div className="cv-entry-row"> 
+             <strong className="cv-entry-proj">MedSearch Pro — Medicine Search Application</strong> 
+             <span className="cv-entry-date"> 
+               <a href="https://github.com/muhhtasim/MedSearch-Pro-JavaSwing-" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
+             </span> 
+           </div> 
+           <p className="cv-proj-tech">Java, Java Swing, HashMap, CSV Parsing, Regex</p> 
+           <ul className="cv-bullets"> 
+             <li>Developed a high-performance Java Swing medicine search application capable of loading and processing more than 50,000 medicine records from CSV data.</li> 
+             <li>Implemented HashMap-based in-memory indexing, regex-powered search, and smart data aggregation for fast and efficient medicine lookup.</li> 
+           </ul> 
+         </div>
 
-          {/* Sylhet Association */}
-          <div className="cv-entry">
-            <div className="cv-entry-row">
-              <strong className="cv-entry-proj">Metropolitan University Community Portal</strong>
-              <span className="cv-entry-date">
-                <a href="https://github.com/failuresoul" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
-              </span>
-            </div>
-            <p className="cv-proj-tech">Web Development, JavaScript, Database, Community Portal</p>
-            <ul className="cv-bullets">
-              <li>Built an official community platform for Metropolitan University, facilitating student connection, a member directory, and event announcements.</li>
-              <li>Enabled collaborative student welfare initiatives through a structured management portal.</li>
-            </ul>
+         {/* Calculator */} 
+         <div className="cv-entry"> 
+           <div className="cv-entry-row"> 
+             <strong className="cv-entry-proj">Calculator — Java Desktop Application</strong> 
+             <span className="cv-entry-date"> 
+               <a href="https://github.com/muhhtasim/java_project_for_lab_calculator" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
+             </span> 
+           </div> 
+           <p className="cv-proj-tech">Java, GUI, Arithmetic, Desktop Application</p> 
+           <ul className="cv-bullets"> 
+             <li>Developed a Java-based desktop calculator as a laboratory project with a simple graphical user interface for common arithmetic operations.</li> 
+             <li>Implemented interactive input handling and arithmetic functionality to provide a straightforward desktop calculation experience.</li> 
+           </ul> 
           </div>
 
           {/* Portfolio Website */}
           <div className="cv-entry">
             <div className="cv-entry-row">
               <strong className="cv-entry-proj">Personal Portfolio Website</strong>
-              <span className="cv-entry-date">
-                <a href="https://github.com/failuresoul/Portfolio-Website" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
+              <span className="cv-
+              entry-date">
+                <a href="https://github.com/muhhtasim/Portfolio-Website" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
               </span>
             </div>
             <p className="cv-proj-tech">React, Vite, JavaScript, CSS3, Canvas API</p>
@@ -291,22 +294,12 @@ export default function Resume({ onBack }) {
             </ul>
           </div>
 
-          {/* GarmentGuard */}
-          <div className="cv-entry">
-            <div className="cv-entry-row">
-              <strong className="cv-entry-proj">GarmentGuard DB — Industry Database System</strong>
-              <span className="cv-entry-date">
-                <a href="https://github.com/failuresoul/GarmentGuard_DB" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
-              </span>
-            </div>
-            <p className="cv-proj-tech">PHP, Laravel, MySQL, SQL Stored Procedures</p>
-            <ul className="cv-bullets">
-              <li>Designed a normalized relational database for garment industry management, covering inventory, production tracking, and quality control workflows.</li>
-              <li>Implemented stored procedures, views, and triggers with a Laravel backend for consistent, streamlined data management.</li>
-            </ul>
-          </div>
+          
         </div>
 
+
+
+//eikan theke ache kaj
         {/* ══ ACHIEVEMENTS ══ */}
         <div className="cv-section">
           <h2 className="cv-section-heading">Achievements</h2>

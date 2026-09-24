@@ -42,7 +42,7 @@ export default function Navbar({ onNavigate, currentPage, theme, toggleTheme }) 
             aria-label="Home"
           >
             <div className="brand-logo-icon">
-              <span className="brand-icon-letter">S</span>
+              <span className="brand-icon-letter">L</span>
               <span className="brand-pulse-dot" />
             </div>
             <span className="brand-name-text">
