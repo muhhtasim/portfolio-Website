@@ -408,7 +408,7 @@ export default function Resume({ onBack }) {
           <h2 className="cv-section-heading">Hobbies &amp; Interests</h2>
           <hr className="cv-rule" />
           <div className="cv-skills-block">
-            <p className="cv-skill-line">Badminton, Playing Football, Watching Football, FIFA / Video Games</p>
+            <p className="cv-skill-line">Badminton, Playing Football, Watching Football, FIFA / Video Games, Traveling</p>
           </div>
         </div>
 
