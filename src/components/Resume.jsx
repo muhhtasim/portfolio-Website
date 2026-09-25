@@ -125,8 +125,7 @@ export default function Resume({ onBack }) {
             </div>
             <div className="cv-entry-row">
               <em className="cv-entry-sub">Higher Secondary Certificate (HSC) — Science Group</em>
-              <em className="cv-entry-sub cv-right"> </em> 
-              //gpa pore dibo add
+              <em className="cv-entry-sub cv-right"></em>
             </div>
           </div>
 
@@ -138,7 +137,6 @@ export default function Resume({ onBack }) {
             <div className="cv-entry-row">
               <em className="cv-entry-sub">Secondary School Certificate (SSC) — Science Group</em>
               <em className="cv-entry-sub cv-right"></em>
-              //gpa pore dibo add ...GPA 4.74 / 5.00 ·
             </div>
           </div>
         </div>
@@ -189,102 +187,101 @@ export default function Resume({ onBack }) {
             </ul>
           </div>
 
-          {/* Ed-Tech */} 
-          <div className="cv-entry"> 
-            <div className="cv-entry-row"> 
-              <strong className="cv-entry-proj">Ed-Tech — Online Programming Learning Platform</strong> 
-              <span className="cv-entry-date"> 
-                <a href="https://github.com/muhhtasim/Ed-Tech-" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
-                </span> 
-            </div> 
-            <p className="cv-proj-tech">HTML, CSS, JavaScript, Node.js, Express.js, MySQL</p> 
-            <ul className="cv-bullets"> 
-              <li>Developed an online programming learning platform with course enrollment, learning resources, progress tracking, and personalized user dashboards.</li> 
-              <li>Implemented authentication, course search and filtering, and role-based course management features for instructors and administrators using Node.js, Express.js, and MySQL.</li> 
-            </ul> 
+          {/* Ed-Tech */}
+          <div className="cv-entry">
+            <div className="cv-entry-row">
+              <strong className="cv-entry-proj">Ed-Tech — Online Programming Learning Platform</strong>
+              <span className="cv-entry-date">
+                <a href="https://github.com/muhhtasim/Ed-Tech-" target="_blank" rel="noopener noreferrer" style={{ fontSize: '9pt', color: '#555' }}>GitHub</a>
+              </span>
+            </div>
+            <p className="cv-proj-tech">HTML, CSS, JavaScript, Node.js, Express.js, MySQL</p>
+            <ul className="cv-bullets">
+              <li>Developed an online programming learning platform with course enrollment, learning resources, progress tracking, and personalized user dashboards.</li>
+              <li>Implemented authentication, course search and filtering, and role-based course management features for instructors and administrators using Node.js, Express.js, and MySQL.</li>
+            </ul>
           </div>
 
           {/* Autonomous Navigation Car */}
-          <div className="cv-entry"> 
-            <div className="cv-entry-row"> 
-              <strong className="cv-entry-proj">Autonomous Navigation Car</strong> 
-              <span className="cv-entry-date"> 
-                <a href="https://github.com/muhhtasim/Autonomous-Navigation-Car" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
-              </span> 
-            </div> 
-            <p className="cv-proj-tech">Arduino, C++, Ultrasonic Sensor, Servo Motor, Motor Driver</p> 
-            <ul className="cv-bullets"> 
-              <li>Built an Arduino-based autonomous 4WD vehicle capable of detecting obstacles and navigating around them using an ultrasonic sensor.</li> 
-              <li>Implemented servo-based path scanning and motor control logic to identify alternate routes and perform autonomous obstacle avoidance.</li> 
-            </ul> 
+          <div className="cv-entry">
+            <div className="cv-entry-row">
+              <strong className="cv-entry-proj">Autonomous Navigation Car</strong>
+              <span className="cv-entry-date">
+                <a href="https://github.com/muhhtasim/Autonomous-Navigation-Car" target="_blank" rel="noopener noreferrer" style={{ fontSize: '9pt', color: '#555' }}>GitHub</a>
+              </span>
+            </div>
+            <p className="cv-proj-tech">Arduino, C++, Ultrasonic Sensor, Servo Motor, Motor Driver</p>
+            <ul className="cv-bullets">
+              <li>Built an Arduino-based autonomous 4WD vehicle capable of detecting obstacles and navigating around them using an ultrasonic sensor.</li>
+              <li>Implemented servo-based path scanning and motor control logic to identify alternate routes and perform autonomous obstacle avoidance.</li>
+            </ul>
           </div>
 
-          {/* GymPilot SaaS */} 
-          <div className="cv-entry"> 
-            <div className="cv-entry-row"> 
-              <strong className="cv-entry-proj">GymPilot SaaS — Gym Management Platform</strong> 
-              <span className="cv-entry-date"> 
-                <a href="https://github.com/muhhtasim/GymPilot-SaaS" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
-              </span> 
-            </div> 
-            <p className="cv-proj-tech">JavaScript, Node.js, Backend, SaaS, Database</p> 
-            <ul className="cv-bullets"> 
-              <li>Designed a SaaS-based gym management platform to centralize member management, workout programs, and day-to-day fitness business operations.</li> 
-              <li>Structured backend and database workflows to support scalable management of gym members, fitness programs, and operational records.</li> 
-            </ul> 
+          {/* GymPilot SaaS */}
+          <div className="cv-entry">
+            <div className="cv-entry-row">
+              <strong className="cv-entry-proj">GymPilot SaaS — Gym Management Platform</strong>
+              <span className="cv-entry-date">
+                <a href="https://github.com/muhhtasim/GymPilot-SaaS" target="_blank" rel="noopener noreferrer" style={{ fontSize: '9pt', color: '#555' }}>GitHub</a>
+              </span>
+            </div>
+            <p className="cv-proj-tech">JavaScript, Node.js, Backend, SaaS, Database</p>
+            <ul className="cv-bullets">
+              <li>Designed a SaaS-based gym management platform to centralize member management, workout programs, and day-to-day fitness business operations.</li>
+              <li>Structured backend and database workflows to support scalable management of gym members, fitness programs, and operational records.</li>
+            </ul>
           </div>
 
-         {/* FlappyBirds */} 
-         <div className="cv-entry"> 
-           <div className="cv-entry-row"> 
-             <strong className="cv-entry-proj">Birds Game — FlappyBirds</strong> 
-             <span className="cv-entry-date"> 
-               <a href="https://github.com/muhhtasim/Birds-Game-FlappyBirds-" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
-             </span> 
-           </div> 
-           <p className="cv-proj-tech">Java, Swing, AWT, Game Loop, Graphics</p> 
-           <ul className="cv-bullets"> 
-             <li>Developed a Java-based remake of the classic Flappy Bird game using Swing and AWT with custom graphics and a real-time game loop.</li> 
-             <li>Implemented randomly generated obstacles, collision detection, score tracking, game-over handling, restart functionality, and keyboard controls.</li> 
-           </ul> 
-         </div>
+          {/* FlappyBirds */}
+          <div className="cv-entry">
+            <div className="cv-entry-row">
+              <strong className="cv-entry-proj">Birds Game — FlappyBirds</strong>
+              <span className="cv-entry-date">
+                <a href="https://github.com/muhhtasim/Birds-Game-FlappyBirds-" target="_blank" rel="noopener noreferrer" style={{ fontSize: '9pt', color: '#555' }}>GitHub</a>
+              </span>
+            </div>
+            <p className="cv-proj-tech">Java, Swing, AWT, Game Loop, Graphics</p>
+            <ul className="cv-bullets">
+              <li>Developed a Java-based remake of the classic Flappy Bird game using Swing and AWT with custom graphics and a real-time game loop.</li>
+              <li>Implemented randomly generated obstacles, collision detection, score tracking, game-over handling, restart functionality, and keyboard controls.</li>
+            </ul>
+          </div>
 
-         {/* MedSearch Pro */} 
-         <div className="cv-entry"> 
-           <div className="cv-entry-row"> 
-             <strong className="cv-entry-proj">MedSearch Pro — Medicine Search Application</strong> 
-             <span className="cv-entry-date"> 
-               <a href="https://github.com/muhhtasim/MedSearch-Pro-JavaSwing-" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
-             </span> 
-           </div> 
-           <p className="cv-proj-tech">Java, Java Swing, HashMap, CSV Parsing, Regex</p> 
-           <ul className="cv-bullets"> 
-             <li>Developed a high-performance Java Swing medicine search application capable of loading and processing more than 50,000 medicine records from CSV data.</li> 
-             <li>Implemented HashMap-based in-memory indexing, regex-powered search, and smart data aggregation for fast and efficient medicine lookup.</li> 
-           </ul> 
-         </div>
+          {/* MedSearch Pro */}
+          <div className="cv-entry">
+            <div className="cv-entry-row">
+              <strong className="cv-entry-proj">MedSearch Pro — Medicine Search Application</strong>
+              <span className="cv-entry-date">
+                <a href="https://github.com/muhhtasim/MedSearch-Pro-JavaSwing-" target="_blank" rel="noopener noreferrer" style={{ fontSize: '9pt', color: '#555' }}>GitHub</a>
+              </span>
+            </div>
+            <p className="cv-proj-tech">Java, Java Swing, HashMap, CSV Parsing, Regex</p>
+            <ul className="cv-bullets">
+              <li>Developed a high-performance Java Swing medicine search application capable of loading and processing more than 50,000 medicine records from CSV data.</li>
+              <li>Implemented HashMap-based in-memory indexing, regex-powered search, and smart data aggregation for fast and efficient medicine lookup.</li>
+            </ul>
+          </div>
 
-         {/* Calculator */} 
-         <div className="cv-entry"> 
-           <div className="cv-entry-row"> 
-             <strong className="cv-entry-proj">Calculator — Java Desktop Application</strong> 
-             <span className="cv-entry-date"> 
-               <a href="https://github.com/muhhtasim/java_project_for_lab_calculator" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a> 
-             </span> 
-           </div> 
-           <p className="cv-proj-tech">Java, GUI, Arithmetic, Desktop Application</p> 
-           <ul className="cv-bullets"> 
-             <li>Developed a Java-based desktop calculator as a laboratory project with a simple graphical user interface for common arithmetic operations.</li> 
-             <li>Implemented interactive input handling and arithmetic functionality to provide a straightforward desktop calculation experience.</li> 
-           </ul> 
+          {/* Calculator */}
+          <div className="cv-entry">
+            <div className="cv-entry-row">
+              <strong className="cv-entry-proj">Calculator — Java Desktop Application</strong>
+              <span className="cv-entry-date">
+                <a href="https://github.com/muhhtasim/java_project_for_lab_calculator" target="_blank" rel="noopener noreferrer" style={{ fontSize: '9pt', color: '#555' }}>GitHub</a>
+              </span>
+            </div>
+            <p className="cv-proj-tech">Java, GUI, Arithmetic, Desktop Application</p>
+            <ul className="cv-bullets">
+              <li>Developed a Java-based desktop calculator as a laboratory project with a simple graphical user interface for common arithmetic operations.</li>
+              <li>Implemented interactive input handling and arithmetic functionality to provide a straightforward desktop calculation experience.</li>
+            </ul>
           </div>
 
           {/* Portfolio Website */}
           <div className="cv-entry">
             <div className="cv-entry-row">
               <strong className="cv-entry-proj">Personal Portfolio Website</strong>
-              <span className="cv-
-              entry-date">
+              <span className="cv-entry-date">
                 <a href="https://github.com/muhhtasim/Portfolio-Website" target="_blank" rel="noopener noreferrer" style={{fontSize:'9pt', color:'#555'}}>GitHub</a>
               </span>
             </div>
@@ -298,63 +295,104 @@ export default function Resume({ onBack }) {
         </div>
 
 
-
-//eikan theke ache kaj
         {/* ══ ACHIEVEMENTS ══ */}
         <div className="cv-section">
           <h2 className="cv-section-heading">Achievements</h2>
           <hr className="cv-rule" />
           <ul className="cv-bullets">
-            <li><strong>2nd Runner-Up (3rd Place)</strong>, <strong>First Byte Datathon</strong> — placed 3rd overall in a data science / ML datathon competition.</li>
-            <li><strong>First Runner-Up</strong>, <strong>Sentiment Analysis Competition by MoonLab</strong> — ranked 1st runner-up in an NLP-based sentiment analysis contest.</li>
+            <li><strong>17th Place</strong>, <strong>National Mathematics Olympiad 2022</strong> — recognized among top participants at the national level.</li>
+            <li><strong>Regional Winner</strong>, <strong>Bangladesh Mathematical Olympiad</strong> — achieved recognition through competitive mathematical problem solving.</li>
+            <li><strong>Hult Prize OnCampus 2024–25</strong> — participated in a global student entrepreneurship and social innovation competition.</li>
             <li><strong>Codeforces</strong> — Max Rating 1185 &nbsp;·&nbsp; <strong>CodeChef</strong> — 2-Star.</li>
           </ul>
         </div>
 
+
         {/* ══ CLUB & ACTIVITIES ══ */}
-        <div className="cv-section">
-          <h2 className="cv-section-heading">Club &amp; Activities</h2>
-          <hr className="cv-rule" />
+         <div className="cv-section">
+           <h2 className="cv-section-heading">Club &amp; Activities</h2>
+           <hr className="cv-rule" />
 
-          <div className="cv-entry">
-            <div className="cv-entry-row">
-              <strong className="cv-entry-org">KMiNDs — MU Machine Intelligence &amp; Data Science Community</strong>
-              <span className="cv-entry-date">2026 – Present</span>
+            {/* CSE Society */}
+            <div className="cv-entry">
+              <div className="cv-entry-row">
+                <strong className="cv-entry-org">CSE SOCIETY | Metropolitan University CSE Society</strong>
+                <span className="cv-entry-date">2026 – Present</span>
+              </div>
+              <div className="cv-entry-row">
+                <em className="cv-entry-sub">E-Sports Secretary · Organizing Committee</em>
+              </div>
+              <ul className="cv-bullets">
+                <li>Serving on the Organizing Committee as E-Sports Secretary, coordinating esports activities, tournaments, workshops, and student engagement initiatives within the CSE community.</li>
+              </ul>
             </div>
-            <div className="cv-entry-row">
-              <em className="cv-entry-sub">Assistant General Secretary · Organizing Committee</em>
+
+            {/* MUSC */}
+            <div className="cv-entry">
+              <div className="cv-entry-row">
+                <strong className="cv-entry-org">MUSC | Metropolitan University Sports Club</strong>
+                <span className="cv-entry-date">2026 – Present</span>
+              </div>
+              <div className="cv-entry-row">
+                <em className="cv-entry-sub">E-Sports Coordinator · Organizing Committee</em>
+              </div>
+              <ul className="cv-bullets">
+                <li>Coordinating university esports tournaments and competitive gaming events, supporting tournament operations, scheduling, refereeing, and participant management.</li>
+              </ul>
             </div>
-            <ul className="cv-bullets">
-              <li>Driving workshops, AI study circles, competitive machine learning sessions, and data science community initiatives.</li>
-            </ul>
+
+            {/* EducationUSA */}
+            <div className="cv-entry">
+              <div className="cv-entry-row">
+                <strong className="cv-entry-org">EducationUSA Bangladesh Spring 2025 Fair</strong>
+                <span className="cv-entry-date">2025 – 2026</span>
+              </div>
+              <div className="cv-entry-row">
+                <em className="cv-entry-sub">Volunteer Coordinator · Organizing Committee</em>
+              </div>
+              <ul className="cv-bullets">
+                <li>Coordinated volunteers, participant guidance, event logistics, and on-ground operations for the EducationUSA Bangladesh Spring 2025 Fair.</li>
+              </ul>
+            </div>
+
+            {/* VBD */}
+            <div className="cv-entry">
+              <div className="cv-entry-row">
+                <strong className="cv-entry-org">VBD | Volunteers for Bangladesh</strong>
+                <span className="cv-entry-date">2025 – 2026</span>
+              </div>
+              <div className="cv-entry-row">
+                <em className="cv-entry-sub">Committee Member · Organizing Committee</em>
+              </div>
+              <ul className="cv-bullets">
+                <li>Contributing to youth-led volunteer initiatives, community engagement activities, and social impact programs through collaborative event coordination.</li>
+              </ul>
+            </div>
           </div>
 
-          <div className="cv-entry">
-            <div className="cv-entry-row">
-              <strong className="cv-entry-org">HACK — Hardware Acceleration Club of MU</strong>
-              <span className="cv-entry-date">2026 – Present</span>
-            </div>
-            <div className="cv-entry-row">
-              <em className="cv-entry-sub">Batch Representative (2K22) · Organizing Committee</em>
-            </div>
-            <ul className="cv-bullets">
-              <li>Coordinating embedded hardware events, robotics acceleration, and Arduino/microcontroller sessions with technical collaboration.</li>
-            </ul>
-          </div>
+      {/* ══ EXPERIENCE ══ */}
+          <div className="cv-section">
+            <h2 className="cv-section-heading">Experience</h2>
+            <hr className="cv-rule" />
 
-          <div className="cv-entry">
-            <div className="cv-entry-row">
-              <strong className="cv-entry-org">SGIPC — Special Group Interested in Programming Contest</strong>
-              <span className="cv-entry-date">2026 – Present</span>
-            </div>
-            <div className="cv-entry-row">
-              <em className="cv-entry-sub">Assistant Contest Manager · Organizing Committee</em>
-            </div>
-            <ul className="cv-bullets">
-              <li>Coordinating judge systems, contest logistics, test case verification, live scoreboards, and contestant support.</li>
-            </ul>
+            {/* Udvash */}
+            <div className="cv-entry">
+              <div className="cv-entry-row">
+                <strong className="cv-entry-org">Udvash Academic &amp; Admission Care</strong>
+                <span className="cv-entry-date">2023 – Present</span>
+              </div>
+
+              <div className="cv-entry-row">
+                <em className="cv-entry-sub">Physics &amp; Mathematics Teacher</em>
+              </div>
+
+              <ul className="cv-bullets">
+                <li>Teach Physics and Mathematics to academic and admission-level students, focusing on conceptual understanding, problem solving, and exam preparation.</li>
+                <li>Prepare and evaluate academic materials, solve challenging problems, and support students in strengthening their analytical and quantitative skills.</li>
+              </ul>
           </div>
         </div>
+
 
         {/* ══ LANGUAGES ══ */}
         <div className="cv-section">
