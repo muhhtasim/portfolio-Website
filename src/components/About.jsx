@@ -106,7 +106,7 @@ export default function About() {
 
               <div className="card-domains-list">
                 <a
-                  href="https://atcoder.jp/users/failure_soul"
+                  href="https://atcoder.jp/users/pore dibo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="domain-item domain-link-item"
