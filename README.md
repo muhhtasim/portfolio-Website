@@ -201,13 +201,12 @@ The active theme is set by toggling `data-theme="dark"` or `data-theme="light"` 
 | Project | Stack | Description |
 |---|---|---|
 | **JudgeMate** ⚖️ | Laravel 12, PHP, MySQL | Self-hosted competitive programming judge with async queue, role-based access, live scoreboards |
-| **FitConnectPro** 💪 | Python, React, ML | Fitness platform with ML-driven activity recognition and personalized workout recommendations |
-| **CampusHive** 🏫 | React, Node.js, Socket.io | Academic management platform with real-time quizzes, lab grading, and three role-based portals |
-| **Churn Prediction** 🧠 | TensorFlow, Keras, Python | ANN-based customer churn prediction with dropout regularization on real banking data |
-| **Niryo Robot** 🤖 | Python, pyniryo, ROS, OpenCV | Pick-and-place control system for Niryo One/Ned robotic arm |
-| **Tiny Computer** 💻 | Digital Logic, ALU | Miniature CPU built from NOT/AND/OR gates with Booth's multiplication algorithm |
-| **GarmentGuard DB** 👔 | Laravel, MySQL | Database management system for garment industry inventory and production tracking |
-
+| **Ed-Tech** 📚 | HTML, CSS, JavaScript, Node.js, Express.js, MySQL | Online programming learning platform with course-based learning and educational content |
+| **GymPilot SaaS** 💪 | JavaScript, Node.js, MongoDB | Gym management SaaS for members, attendance, payments, trainers, and fitness tracking |
+| **MedSearch Pro** 💊 | Java, Swing, AWT | Medicine search application with 50,000+ records using HashMap and regex-based search |
+| **FlappyBirds** 🐦 | Java, Swing, AWT | Java-based desktop Flappy Bird game built with GUI and game mechanics |
+| **Autonomous Navigation Car** 🚗 | C++, Arduino | Autonomous 4WD vehicle using ultrasonic sensing, servo control, and obstacle avoidance |
+| **Calculator** 🧮 | Java, Swing | Desktop calculator application developed as a Java GUI project |
 ---
 
 ## 🤝 Connect
