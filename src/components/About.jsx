@@ -206,7 +206,7 @@ export default function About() {
                   Kaggle ↗
                 </a>
                 <a
-                //linkedin link pore dit hobe
+                //linkedin link pore dit hobe cause banned
                   href="https://www.linkedin.com/in/muhtasim-ahmed-52/"
                   target="_blank"
                   rel="noopener noreferrer"
