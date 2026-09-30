@@ -57,7 +57,7 @@ export default function About() {
                 Hi, I’m <strong className="text-highlight">Ahmed Muhtasim Labib</strong>, a Computer Science &amp; Engineering student at <strong className="text-highlight">Metropolitan University</strong> focusing on <span className="keyword-chip">Artificial Intelligence</span>, <span className="keyword-chip">Machine Learning</span>, <span className="keyword-chip">NLP</span>, <span className="keyword-chip">LLMs</span>, and <span className="keyword-chip">VLMs</span>. I specialize in turning research concepts into robust production code—spanning deep learning models, natural language architectures, and scalable <span className="keyword-chip">Full-Stack Development</span>.
               </p>
 
-              <p>
+              <p className="about-research-paragraph">
                 My current work centers on <span className="keyword-chip">AI/ML Research</span>, particularly large language models, vision-language systems, and <span className="keyword-chip">Robotics (Niryo Robotics)</span> utilizing Python pyniryo and ROS. Beyond research, my foundation in competitive programming (400+ problems solved) instills rigorous algorithmic discipline into everything I build.
               </p>
             </div>

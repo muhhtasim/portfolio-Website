@@ -1183,6 +1183,10 @@ a {
   color: var(--text-secondary);
 }
 
+.about-research-paragraph {
+  color: var(--accent-tertiary) !important;
+}
+
 .text-highlight {
   color: var(--text-primary);
   font-weight: 700;
