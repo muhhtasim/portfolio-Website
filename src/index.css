@@ -1183,8 +1183,8 @@ a {
   color: var(--text-secondary);
 }
 
-.about-research-paragraph {
-  color: var(--accent-tertiary) !important;
+.about-text-paragraphs .about-research-paragraph {
+  color: var(--accent-tertiary);
 }
 
 .text-highlight {
