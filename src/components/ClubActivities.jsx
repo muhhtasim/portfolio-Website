@@ -1,3 +1,4 @@
+import './ClubActivities.css'
 import kmindsLogo from '../assets/TE510.jpg'
 import hackLogo from '../assets/hack_logo.jpeg'
 import sgipcLogo from '../assets/sgipc_logo.png'

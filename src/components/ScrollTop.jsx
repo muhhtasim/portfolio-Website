@@ -1,3 +1,4 @@
+import './ScrollTop.css'
 import { useState, useEffect } from 'react'
 
 export default function ScrollTop() {

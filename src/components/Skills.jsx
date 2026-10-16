@@ -1,3 +1,4 @@
+import './Skills.css'
 import { useEffect, useRef, useState } from 'react'
 import {
   SiPython,

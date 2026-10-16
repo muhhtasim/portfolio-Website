@@ -1,3 +1,4 @@
+import './About.css'
 import { SiKaggle, SiCodeforces, SiCodechef, SiLeetcode } from 'react-icons/si'
 import atcoderLogo from '../assets/atcoder_logo.png'
 

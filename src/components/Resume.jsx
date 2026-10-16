@@ -1,3 +1,4 @@
+import './Resume.css'
 function printResume() {
   // Force desktop-width viewport so mobile/tablet prints like a laptop
   const viewportMeta = document.querySelector('meta[name="viewport"]')

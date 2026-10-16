@@ -1,3 +1,4 @@
+import './Projects.css'
 const projects = [
   {
     name: 'Ed-Tech',

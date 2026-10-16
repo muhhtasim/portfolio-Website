@@ -1,3 +1,4 @@
+import './Experience.css'
 const experiences = [
   {
   title: 'Physics & Mathematics Instructor',

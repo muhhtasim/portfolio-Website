@@ -1,3 +1,4 @@
+import './Footer.css'
 import {
   FaGithub,
   FaLinkedinIn,

@@ -1,0 +1,110 @@
+/* Experience styles */
+
+.experience-section {
+  background: var(--bg-secondary);
+}
+
+.experience-timeline {
+  position: relative;
+  margin-top: 60px;
+  padding-left: 32px;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, var(--accent-primary), transparent);
+}
+
+.experience-item {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.experience-item::before {
+  content: '';
+  position: absolute;
+  left: -38px;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--gradient-hero);
+  box-shadow: 0 0 12px rgba(124, 58, 237, 0.6);
+}
+
+.experience-card {
+  background: var(--gradient-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 28px;
+  transition: var(--transition);
+}
+
+.experience-card:hover {
+  border-color: rgba(124, 58, 237, 0.4);
+  transform: translateX(6px);
+}
+
+.experience-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.experience-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.experience-company {
+  font-size: 15px;
+  color: var(--accent-secondary);
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.experience-period {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: rgba(124, 58, 237, 0.1);
+  border: 1px solid rgba(124, 58, 237, 0.2);
+  border-radius: 50px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.experience-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.experience-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.experience-skill {
+  padding: 4px 10px;
+  background: rgba(6, 182, 212, 0.08);
+  border: 1px solid rgba(6, 182, 212, 0.2);
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent-tertiary);
+}
